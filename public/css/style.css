@@ -250,7 +250,7 @@ header {
       rgba(57, 28, 28, 0.47),
       rgba(27, 11, 11, 0.442)
     ),
-    url("https://ik.imagekit.io/vi9aepz6c/Resturando/img/header-image-email.jpg");
+    url("/img/header-image-email.jpg");
 
   background-position: center;
   background-repeat: no-repeat;
@@ -263,7 +263,7 @@ header {
   position: relative;
   top: 10px;
   background-color: #000000;
-  background-image: url("https://ik.imagekit.io/vi9aepz6c/Resturando/img/vegetables-ge8fccf0e8_1280.jpg");
+  background-image: url("/img/vegetables-ge8fccf0e8_1280.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -343,6 +343,7 @@ header {
 
 .cart-img {
   width: 70px;
+  height: 70px;
 }
 
 table.table-cart {
@@ -397,7 +398,7 @@ span#cart-num {
   overflow: hidden;
   background: var(--secondary);
   background-image: linear-gradient(rgba(0, 0, 0, 0.886), rgba(0, 0, 0, 0.791)),
-    url("https://ik.imagekit.io/vi9aepz6c/Resturando/img/feature-image.jpg");
+    url("/img/feature-image.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -427,7 +428,7 @@ span#cart-num {
   height: 250px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.218)),
-    url("https://ik.imagekit.io/vi9aepz6c/Resturando/img/pancakes-g7bc86f486_1280.jpg");
+    url("/img/pancakes-g7bc86f486_1280.jpg");
 
   background-position: center;
   background-repeat: no-repeat;
@@ -440,7 +441,7 @@ span#cart-num {
   top: -190px;
   height: 250px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.218)),
-    url("https://ik.imagekit.io/vi9aepz6c/Resturando/img/cookies-gf43494f23_1280.jpg");
+    url("/img/cookies-gf43494f23_1280.jpg");
 
   background-position: center;
   background-repeat: no-repeat;
@@ -454,7 +455,7 @@ span#cart-num {
   top: -190px;
   height: 250px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.218)),
-    url("https://ik.imagekit.io/vi9aepz6c/Resturando/img/breakfast-ga99def90b_1280.jpg");
+    url("/img/breakfast-ga99def90b_1280.jpg");
 
   background-position: center;
   background-repeat: no-repeat;
@@ -629,7 +630,7 @@ span#cart-num {
 
 #parallax {
   background-image: linear-gradient(rgba(0, 0, 0, 0.886), rgba(0, 0, 0, 0.791)),
-    url("https://ik.imagekit.io/vi9aepz6c/Resturando/img/raspberries-g1c95018cf_1280.jpg");
+    url("/img/raspberries-g1c95018cf_1280.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -775,7 +776,7 @@ li.ui-timepicker-selected,
 
 .footer-area {
   background-image: linear-gradient(rgba(0, 0, 0, 0.886), rgba(0, 0, 0, 0.791)),
-    url("https://ik.imagekit.io/vi9aepz6c/Resturando/img/raspberries-g1c95018cf_1280.jpg");
+    url("/img/raspberries-g1c95018cf_1280.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -1493,7 +1494,7 @@ img.menu-view {
   box-sizing: 0;
   margin: 0;
   padding: 0;
-  cursor: url("https://ik.imagekit.io/vi9aepz6c/Resturando/img/breakfast-ga99def90b_1280.jpg"),
+  cursor: url("/img/breakfast-ga99def90b_1280.jpg"),
     auto;
 }
 
@@ -1505,7 +1506,7 @@ img.menu-view {
 }
 
 .fourzerofourerror aside {
-  background-image: url("https://ik.imagekit.io/vi9aepz6c/Resturando/img/breakfast-ga99def90b_1280.jpg");
+  background-image: url("/img/breakfast-ga99def90b_1280.jpg");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 25px 100%;
@@ -2896,7 +2897,7 @@ button:hover {
 
 @media (max-width: 1500.98px) {
   #pre-loader {
-    background: #000000 url(../img/pre-loader.gif) no-repeat center center;
+    background: #000000 url("/img/pre-loader.gif") no-repeat center center;
     background-size: 15%;
     height: 100vh;
     position: fixed;
